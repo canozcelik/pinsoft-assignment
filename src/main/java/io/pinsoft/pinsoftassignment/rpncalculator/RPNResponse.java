@@ -2,13 +2,13 @@ package io.pinsoft.pinsoftassignment.rpncalculator;
 
 public class RPNResponse {
 
-  private Integer result;
+  private long result;
 
-  public Integer getResult() {
+  public long getResult() {
     return result;
   }
 
-  public void setResult(Integer result) {
+  public void setResult(long result) {
     this.result = result;
   }
 }
