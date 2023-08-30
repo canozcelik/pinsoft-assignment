@@ -23,9 +23,9 @@ public class RPNServiceImpl implements RPNService {
 
 
   @Override
-  public RPNResponse calculate(String expression) {
+  public RPNResponse calculate(RPNRequest expression) {
 
-    String[] splitExpression = expression.split(" ");
+    String[] splitExpression = expression.getExpression().split(" ");
     Stack<String> stack = new Stack<>();
     for (String s : splitExpression) {
 
