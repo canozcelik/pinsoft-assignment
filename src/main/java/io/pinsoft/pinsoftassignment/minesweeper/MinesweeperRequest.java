@@ -1,13 +1,13 @@
 package io.pinsoft.pinsoftassignment.minesweeper;
 
 public class MinesweeperRequest {
-  private String[] square;
+  private String[][] square;
 
-  public String[] getSquare() {
+  public String[][] getSquare() {
     return square;
   }
 
-  public void setSquare(String[] square) {
+  public void setSquare(String[][] square) {
     this.square = square;
   }
 }
